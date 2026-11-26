@@ -1,0 +1,21 @@
+{
+  "name": "qa-manto-web",
+  "version": "1.2.0",
+  "private": true,
+  "description": "QA MANTO - gestión de información aeronáutica y sincronización de Proveedor mediante enlace de OneDrive",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "multer": "^2.0.2"
+  }
+}
